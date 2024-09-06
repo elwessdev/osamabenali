@@ -7,7 +7,12 @@ const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_tyfw31f', 'template_940y3se', form.current, 'QVdmptxNW3g1l-aVc')
+        emailjs.sendForm(
+            process.env.REACT_APP_MAILJS_SERVICE,
+            process.env.REACT_APP_MAILJS_TEMPLATE,
+            form.current,
+            process.env.REACT_APP_MAILJS_KEY
+        )
         .then((result) => {
             console.log(result.text);
             alert("Message Sent Successfully!");
