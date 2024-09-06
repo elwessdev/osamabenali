@@ -1,0 +1,47 @@
+.testimonial__container {
+    width: 750px;
+}
+
+.testimonial__card {
+    background-color: rgba(100, 255, 218, .10196078431372549);
+    padding: 1.5rem 2rem;
+    border-radius: 1.5rem;
+    margin-bottom: var(--mb-3);
+    border: 1px solid #64ffda;
+}
+
+.testimonial__img {
+    width: 60px;
+    margin-bottom: 8px;
+    border-radius: 50%;
+}
+
+.testimonial__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-25);
+}
+
+.testimonial__description {
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--title-color) !important;
+}
+
+/* BREAK POINTS */
+@media screen and (max-width: 992px) {
+    .testimonial__container {
+        width: initial;
+    }
+
+    .testimonial__card {
+        padding: 1.25rem 1.5rem;
+    }
+}
