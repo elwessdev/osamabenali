@@ -1,5 +1,5 @@
-import Image1 from "../../assets/woman1.png";
-import Image2 from "../../assets/man.png";
+// import Image1 from "../../assets/woman1.png";
+// import Image2 from "../../assets/man.png";
 import upwork from "../../assets/upwork.svg";
 
 export const Data = [

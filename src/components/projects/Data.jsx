@@ -1,6 +1,6 @@
 import Project1 from "../../assets/project1.webp";
-import Project2 from "../../assets/project2.webp";
-import Project3 from "../../assets/project3.webp";
+// import Project2 from "../../assets/project2.webp";
+// import Project3 from "../../assets/project3.webp";
 
 
 export const projectsData = [

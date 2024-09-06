@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { projectsData } from "./Data";
-import { projectsNav } from './Data';
+// import { projectsNav } from './Data';
 import ProjectItems from "./ProjectItems";
 
 const Projects = () => {
     const [item, setItem] =  useState({ name: "All" });
     const [projects, setProjects] = useState([]);
-    const [active, setActive] = useState(0);
+    // const [active, setActive] = useState(0);
     useEffect(() => {
         if(item.name === "All") {
         setProjects(projectsData);
@@ -18,10 +18,10 @@ const Projects = () => {
             setProjects(newProjects);
         }
     },[item]);
-    const handleClick  = (e, index) => {
-        setItem({ name: e.target.textContent });
-        setActive(index);
-    };
+    // const handleClick  = (e, index) => {
+    //     setItem({ name: e.target.textContent });
+    //     setActive(index);
+    // };
     return (
         <div>
             {/* <div className="project__filters">
