@@ -107,19 +107,20 @@ img {
 
 /* CSS CLASSES */
 .section {
-    padding: 6rem 0 2rem;
+    padding: 30px 0;
 }
 
 .section__subtitle {
     display: block;
     font-size: var(--small-font-size);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
     color: #ccd6f6;
 }
 .section__title{
     text-align: center;
     color: #64ffda;
+    font-size: 30px;
 } 
 
 /* LAYOUT */

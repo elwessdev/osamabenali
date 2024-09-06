@@ -31,8 +31,8 @@
 
 .about__box {
     /* background-color: rgba(100, 255, 218, .10196078431372549); */
-    /* border: 1px solid #64ffda; */
-    border: 1px solid #ccd6f6;
+    border: 1px solid #64ffda;
+    /* border: 1px solid #ccd6f6; */
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
@@ -57,8 +57,9 @@
 .about__description {
     padding: 0;
     margin-bottom: 15px;
-    text-align: center;
     color: #ccd6f6;
+    max-width: 600px;
+    text-align: center;
 }
 
 /* BREAK POINTS */

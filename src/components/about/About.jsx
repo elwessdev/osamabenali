@@ -12,7 +12,7 @@ const About = () => {
             {/* <img src={AboutImg} alt="about" className="about__img" /> */}
             <div className="about__data">
                 <p className="about__description">
-                    I create applications highlighting minimal design and friendly UI/UX interfaces.
+                Committed to continuous learning and growth, I am eager to further develop my skills and contribute to exciting projects.
                 </p>
                 <Info />
                 {/* <a download="" href={CV} className="button button--flex">
