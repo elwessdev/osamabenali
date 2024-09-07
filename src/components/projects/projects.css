@@ -124,6 +124,7 @@
 @media screen and (max-width: 768px) {
     .project__container {
         grid-template-columns: max-content;
+        margin: 0;
     }
 }
 

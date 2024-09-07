@@ -37,6 +37,9 @@
 
 /* BREAK POINTS */
 @media screen and (max-width: 992px) {
+    .testimonial{
+        margin: 0;
+    }
     .testimonial__container {
         width: initial;
     }

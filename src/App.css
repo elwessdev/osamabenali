@@ -168,10 +168,10 @@ img {
 
 /* BREAK POINTS */
 @media screen and (max-width: 992px) {
-    .container {
+    /* .container {
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
-    }
+    } */
 
     .button {
         padding: 1rem 1.75rem;
@@ -192,7 +192,7 @@ img {
     }
 
     .section__subtitle {
-        margin-bottom: var(--mb-3);
+        /* margin-bottom: var(--mb-3); */
     }
 }
 
