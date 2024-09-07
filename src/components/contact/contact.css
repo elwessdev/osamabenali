@@ -5,6 +5,12 @@
     padding-bottom: 3rem;
 }
 
+.Toastify__toast-theme--dark {
+    background: #0a192f !important;
+    position: relative !important;
+    top: 60px !important;
+}
+
 .contact__title {
     text-align: center;
     font-size: var(--h3-font-size);
@@ -127,6 +133,11 @@
 @media screen and (max-width: 992px) {
     .contact__container {
         column-gap: 3rem;
+    }
+    .Toastify__toast-theme--dark {
+        top: 8px !important;
+        width: 90%;
+        left: 10px;
     }
 }
 
