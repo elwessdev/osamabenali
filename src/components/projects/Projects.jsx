@@ -36,8 +36,8 @@ const Projects = () => {
                 })}
             </div> */}
             <div className="project__container container grid">
-                {projects.map((item) => {
-                    return <ProjectItems item={item} key={item.id}/>
+                {[...projects].reverse().map((item,key) => {
+                    return <ProjectItems item={item} key={key}/>
                 })}
             </div>
         </div>
