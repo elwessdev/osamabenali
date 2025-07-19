@@ -54,6 +54,24 @@ export default function Critical() {
                     <h3 className="skills__name">Operating Systems</h3>
                 </div>
             </div>
+            <div className="skills__data">
+                <HiCheckBadge />
+                <div>
+                    <h3 className="skills__name">Version Control</h3>
+                </div>
+            </div>
+            <div className="skills__data">
+                <HiCheckBadge />
+                <div>
+                    <h3 className="skills__name">Software Development</h3>
+                </div>
+            </div>
+            <div className="skills__data">
+                <HiCheckBadge />
+                <div>
+                    <h3 className="skills__name">Agile Methodologies</h3>
+                </div>
+            </div>
         </div>
     </div>
     );

@@ -13,7 +13,7 @@ const Contact = () => {
             process.env.REACT_APP_MAILJS_SERVICE,
             process.env.REACT_APP_MAILJS_TEMPLATE,
             form.current,
-            "QVdmptxNW3g1l-aVc"
+            process.env.REACT_APP_MAILJS_KEY,
         )
         .then((result) => {
             // console.log(result.text);

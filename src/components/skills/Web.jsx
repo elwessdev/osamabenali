@@ -39,7 +39,7 @@ export default function Web(){
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">Typescript</h3>
+                        <h3 className="skills__name">TypeScript</h3>
                     </div>
                 </div>
                 <div className="skills__data">
@@ -51,7 +51,37 @@ export default function Web(){
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
+                        <h3 className="skills__name">Nest.JS</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Next.js</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Vite</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Ant Design</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
                         <h3 className="skills__name">Node.js</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Express</h3>
                     </div>
                 </div>
                 <div className="skills__data">
@@ -70,6 +100,42 @@ export default function Web(){
                     <HiCheckBadge />
                     <div>
                         <h3 className="skills__name">MongoDB</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">PostgreSQL</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Redis</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Socket.IO</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">TanStack Query</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Zustand</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Microservices</h3>
                     </div>
                 </div>
             </div>
