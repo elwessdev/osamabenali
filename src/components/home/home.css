@@ -70,7 +70,8 @@
 }
 
 .home__img {
-    background: url(../../assets/profileBW.jpg);
+    /* background: url(../../assets/profileBW.jpg); */
+    background: url(../../assets/pfp2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
